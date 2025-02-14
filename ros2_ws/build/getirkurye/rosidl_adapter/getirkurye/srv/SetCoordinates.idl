@@ -9,6 +9,8 @@ module getirkurye {
       double x;
 
       double y;
+
+      double theta;
     };
     struct SetCoordinates_Response {
       boolean success;

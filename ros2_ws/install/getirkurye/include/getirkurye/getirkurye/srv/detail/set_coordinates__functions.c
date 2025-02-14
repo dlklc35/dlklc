@@ -18,6 +18,7 @@ getirkurye__srv__SetCoordinates_Request__init(getirkurye__srv__SetCoordinates_Re
   }
   // x
   // y
+  // theta
   return true;
 }
 
@@ -29,6 +30,7 @@ getirkurye__srv__SetCoordinates_Request__fini(getirkurye__srv__SetCoordinates_Re
   }
   // x
   // y
+  // theta
 }
 
 bool
@@ -43,6 +45,10 @@ getirkurye__srv__SetCoordinates_Request__are_equal(const getirkurye__srv__SetCoo
   }
   // y
   if (lhs->y != rhs->y) {
+    return false;
+  }
+  // theta
+  if (lhs->theta != rhs->theta) {
     return false;
   }
   return true;
@@ -60,6 +66,8 @@ getirkurye__srv__SetCoordinates_Request__copy(
   output->x = input->x;
   // y
   output->y = input->y;
+  // theta
+  output->theta = input->theta;
   return true;
 }
 

@@ -31,7 +31,7 @@ void getirkurye__srv__SetCoordinates_Request__rosidl_typesupport_introspection_c
   getirkurye__srv__SetCoordinates_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember getirkurye__srv__SetCoordinates_Request__rosidl_typesupport_introspection_c__SetCoordinates_Request_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember getirkurye__srv__SetCoordinates_Request__rosidl_typesupport_introspection_c__SetCoordinates_Request_message_member_array[3] = {
   {
     "x",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
@@ -65,13 +65,30 @@ static rosidl_typesupport_introspection_c__MessageMember getirkurye__srv__SetCoo
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "theta",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(getirkurye__srv__SetCoordinates_Request, theta),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers getirkurye__srv__SetCoordinates_Request__rosidl_typesupport_introspection_c__SetCoordinates_Request_message_members = {
   "getirkurye__srv",  // message namespace
   "SetCoordinates_Request",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(getirkurye__srv__SetCoordinates_Request),
   getirkurye__srv__SetCoordinates_Request__rosidl_typesupport_introspection_c__SetCoordinates_Request_message_member_array,  // message members
   getirkurye__srv__SetCoordinates_Request__rosidl_typesupport_introspection_c__SetCoordinates_Request_init_function,  // function to initialize message memory (memory has to be allocated)

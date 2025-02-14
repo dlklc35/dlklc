@@ -37,7 +37,7 @@ void SetCoordinates_Request_fini_function(void * message_memory)
   typed_message->~SetCoordinates_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember SetCoordinates_Request_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember SetCoordinates_Request_message_member_array[3] = {
   {
     "x",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
@@ -71,13 +71,30 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SetCoordinate
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "theta",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(getirkurye::srv::SetCoordinates_Request, theta),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers SetCoordinates_Request_message_members = {
   "getirkurye::srv",  // message namespace
   "SetCoordinates_Request",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(getirkurye::srv::SetCoordinates_Request),
   SetCoordinates_Request_message_member_array,  // message members
   SetCoordinates_Request_init_function,  // function to initialize message memory (memory has to be allocated)

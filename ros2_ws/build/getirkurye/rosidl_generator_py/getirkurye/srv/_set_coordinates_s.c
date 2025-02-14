@@ -68,6 +68,15 @@ bool getirkurye__srv__set_coordinates__request__convert_from_py(PyObject * _pyms
     ros_message->y = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // theta
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->theta = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -106,6 +115,17 @@ PyObject * getirkurye__srv__set_coordinates__request__convert_to_py(void * raw_r
     field = PyFloat_FromDouble(ros_message->y);
     {
       int rc = PyObject_SetAttrString(_pymessage, "y", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // theta
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->theta);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "theta", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

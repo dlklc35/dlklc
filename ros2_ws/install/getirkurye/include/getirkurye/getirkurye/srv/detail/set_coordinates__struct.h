@@ -22,6 +22,7 @@ typedef struct getirkurye__srv__SetCoordinates_Request
 {
   double x;
   double y;
+  double theta;
 } getirkurye__srv__SetCoordinates_Request;
 
 // Struct for a sequence of getirkurye__srv__SetCoordinates_Request.

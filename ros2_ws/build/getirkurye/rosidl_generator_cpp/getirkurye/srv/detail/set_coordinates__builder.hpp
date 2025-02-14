@@ -21,16 +21,32 @@ namespace srv
 namespace builder
 {
 
+class Init_SetCoordinates_Request_theta
+{
+public:
+  explicit Init_SetCoordinates_Request_theta(::getirkurye::srv::SetCoordinates_Request & msg)
+  : msg_(msg)
+  {}
+  ::getirkurye::srv::SetCoordinates_Request theta(::getirkurye::srv::SetCoordinates_Request::_theta_type arg)
+  {
+    msg_.theta = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::getirkurye::srv::SetCoordinates_Request msg_;
+};
+
 class Init_SetCoordinates_Request_y
 {
 public:
   explicit Init_SetCoordinates_Request_y(::getirkurye::srv::SetCoordinates_Request & msg)
   : msg_(msg)
   {}
-  ::getirkurye::srv::SetCoordinates_Request y(::getirkurye::srv::SetCoordinates_Request::_y_type arg)
+  Init_SetCoordinates_Request_theta y(::getirkurye::srv::SetCoordinates_Request::_y_type arg)
   {
     msg_.y = std::move(arg);
-    return std::move(msg_);
+    return Init_SetCoordinates_Request_theta(msg_);
   }
 
 private:
