@@ -1,0 +1,26 @@
+[0.393s] Invoking command in '/home/demirhan/ros2_ws/src/dlklc': PYTHONPATH=/home/demirhan/ros2_ws/build/dlklc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dlklc build --build-base /home/demirhan/ros2_ws/build/dlklc/build install --record /home/demirhan/ros2_ws/build/dlklc/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.511s] writing ../../build/dlklc/dlklc.egg-info/PKG-INFO
+[0.511s] writing dependency_links to ../../build/dlklc/dlklc.egg-info/dependency_links.txt
+[0.511s] writing entry points to ../../build/dlklc/dlklc.egg-info/entry_points.txt
+[0.511s] writing requirements to ../../build/dlklc/dlklc.egg-info/requires.txt
+[0.512s] writing top-level names to ../../build/dlklc/dlklc.egg-info/top_level.txt
+[0.513s] reading manifest file '../../build/dlklc/dlklc.egg-info/SOURCES.txt'
+[0.513s] writing manifest file '../../build/dlklc/dlklc.egg-info/SOURCES.txt'
+[0.513s] running build
+[0.513s] running build_py
+[0.514s] copying dlklc/randomturtlemessages.py -> /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc
+[0.514s] running install
+[0.514s] running install_lib
+[0.514s] copying /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc/randomturtlemessages.py -> /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc
+[0.515s] byte-compiling /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc/randomturtlemessages.py to randomturtlemessages.cpython-310.pyc
+[0.515s] running install_data
+[0.515s] running install_egg_info
+[0.517s] removing '/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.517s] Copying ../../build/dlklc/dlklc.egg-info to /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc-0.0.0-py3.10.egg-info
+[0.517s] running install_scripts
+[0.532s] Installing client_node script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.533s] Installing randomturtlemessages script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.533s] Installing turtle_move script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.533s] writing list of installed files to '/home/demirhan/ros2_ws/build/dlklc/install.log'
+[0.558s] Invoked command in '/home/demirhan/ros2_ws/src/dlklc' returned '0': PYTHONPATH=/home/demirhan/ros2_ws/build/dlklc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dlklc build --build-base /home/demirhan/ros2_ws/build/dlklc/build install --record /home/demirhan/ros2_ws/build/dlklc/install.log --single-version-externally-managed install_data

@@ -1,0 +1,29 @@
+[0.279s] Invoking command in '/home/demirhan/ros2_ws/build/dlklc': PYTHONPATH=/home/demirhan/ros2_ws/build/dlklc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/demirhan/ros2_ws/build/dlklc/build --no-deps symlink_data
+[0.402s] running develop
+[0.468s] running egg_info
+[0.468s] creating dlklc.egg-info
+[0.468s] writing dlklc.egg-info/PKG-INFO
+[0.469s] writing dependency_links to dlklc.egg-info/dependency_links.txt
+[0.469s] writing entry points to dlklc.egg-info/entry_points.txt
+[0.469s] writing requirements to dlklc.egg-info/requires.txt
+[0.469s] writing top-level names to dlklc.egg-info/top_level.txt
+[0.469s] writing manifest file 'dlklc.egg-info/SOURCES.txt'
+[0.469s] reading manifest file 'dlklc.egg-info/SOURCES.txt'
+[0.470s] writing manifest file 'dlklc.egg-info/SOURCES.txt'
+[0.470s] running build_ext
+[0.471s] Creating /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc.egg-link (link to .)
+[0.471s] Installing client_node script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.471s] Installing turtle_move script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.471s] 
+[0.471s] Installed /home/demirhan/ros2_ws/build/dlklc
+[0.471s] running symlink_data
+[0.471s] creating /home/demirhan/ros2_ws/install/dlklc/share/ament_index
+[0.471s] creating /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index
+[0.471s] creating /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index/packages
+[0.471s] symbolically linking /home/demirhan/ros2_ws/build/dlklc/resource/dlklc -> /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index/packages
+[0.472s] symbolically linking /home/demirhan/ros2_ws/build/dlklc/package.xml -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc
+[0.472s] creating /home/demirhan/ros2_ws/install/dlklc/share/dlklc/launch
+[0.472s] symbolically linking /home/demirhan/ros2_ws/build/dlklc/launch/launch_turtle_move.launch.py -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc/launch
+[0.472s] creating /home/demirhan/ros2_ws/install/dlklc/share/dlklc/srv
+[0.472s] symbolically linking /home/demirhan/ros2_ws/build/dlklc/srv/SetCoordinates.srv -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc/srv
+[0.486s] Invoked command in '/home/demirhan/ros2_ws/build/dlklc' returned '0': PYTHONPATH=/home/demirhan/ros2_ws/build/dlklc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/demirhan/ros2_ws/build/dlklc/build --no-deps symlink_data

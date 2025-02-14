@@ -1,0 +1,5 @@
+[console_scripts]
+client_node = dlklc.client_node:main
+randomturtlemessages = dlklc.randomturtlemessages:main
+turtle_move = dlklc.turtle_move:main
+

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating dlklc.egg-info
+writing dlklc.egg-info/PKG-INFO
+writing dependency_links to dlklc.egg-info/dependency_links.txt
+writing entry points to dlklc.egg-info/entry_points.txt
+writing requirements to dlklc.egg-info/requires.txt
+writing top-level names to dlklc.egg-info/top_level.txt
+writing manifest file 'dlklc.egg-info/SOURCES.txt'
+reading manifest file 'dlklc.egg-info/SOURCES.txt'
+writing manifest file 'dlklc.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc.egg-link (link to .)
+Installing client_node script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+Installing turtle_move script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+
+Installed /home/demirhan/ros2_ws/build/dlklc
+running symlink_data
+creating /home/demirhan/ros2_ws/install/dlklc/share/ament_index
+creating /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index
+creating /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index/packages
+symbolically linking /home/demirhan/ros2_ws/build/dlklc/resource/dlklc -> /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index/packages
+symbolically linking /home/demirhan/ros2_ws/build/dlklc/package.xml -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc
+creating /home/demirhan/ros2_ws/install/dlklc/share/dlklc/launch
+symbolically linking /home/demirhan/ros2_ws/build/dlklc/launch/launch_turtle_move.launch.py -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc/launch
+creating /home/demirhan/ros2_ws/install/dlklc/share/dlklc/srv
+symbolically linking /home/demirhan/ros2_ws/build/dlklc/srv/SetCoordinates.srv -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc/srv

@@ -1,0 +1,7 @@
+[console_scripts]
+draw_circle = my_robot_controller.draw_circle:main
+input_xy = my_robot_controller.input_xy:main
+randomturtles = my_robot_controller.randomturtles:main
+test_node = my_robot_controller.my_first_node:main
+turtle_controller = my_robot_controller.turtle_controller:main
+

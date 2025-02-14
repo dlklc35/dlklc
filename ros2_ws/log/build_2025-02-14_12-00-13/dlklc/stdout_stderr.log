@@ -1,0 +1,38 @@
+running develop
+Removing /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc.egg-link (link to .)
+running egg_info
+writing ../../build/dlklc/dlklc.egg-info/PKG-INFO
+writing dependency_links to ../../build/dlklc/dlklc.egg-info/dependency_links.txt
+writing entry points to ../../build/dlklc/dlklc.egg-info/entry_points.txt
+writing requirements to ../../build/dlklc/dlklc.egg-info/requires.txt
+writing top-level names to ../../build/dlklc/dlklc.egg-info/top_level.txt
+reading manifest file '../../build/dlklc/dlklc.egg-info/SOURCES.txt'
+writing manifest file '../../build/dlklc/dlklc.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/demirhan/ros2_ws/build/dlklc/build
+creating /home/demirhan/ros2_ws/build/dlklc/build/lib
+creating /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc
+copying dlklc/turtle_move.py -> /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc
+copying dlklc/__init__.py -> /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc
+copying dlklc/client_node.py -> /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc
+running install
+running install_lib
+creating /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc
+copying /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc/turtle_move.py -> /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc
+copying /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc/__init__.py -> /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc
+copying /home/demirhan/ros2_ws/build/dlklc/build/lib/dlklc/client_node.py -> /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc
+byte-compiling /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc/turtle_move.py to turtle_move.cpython-310.pyc
+byte-compiling /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc/client_node.py to client_node.cpython-310.pyc
+running install_data
+copying resource/dlklc -> /home/demirhan/ros2_ws/install/dlklc/share/ament_index/resource_index/packages
+copying package.xml -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc
+copying launch/launch_turtle_move.launch.py -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc/launch
+copying srv/SetCoordinates.srv -> /home/demirhan/ros2_ws/install/dlklc/share/dlklc/srv
+running install_egg_info
+Copying ../../build/dlklc/dlklc.egg-info to /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client_node script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+Installing turtle_move script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+writing list of installed files to '/home/demirhan/ros2_ws/build/dlklc/install.log'
