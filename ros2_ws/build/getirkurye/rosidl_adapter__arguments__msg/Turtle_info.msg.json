@@ -1,0 +1,6 @@
+{
+  "package_name": "getirkurye",
+  "non_idl_tuples": [
+    "/home/demirhan/ros2_ws/src/getirkurye:srv/SetCoordinates.srv"
+  ]
+}

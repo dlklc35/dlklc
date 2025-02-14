@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bffed1183f1e0eaff58f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "getirkurye__py",
+					"jsonFile" : "directory-getirkurye__py-174f303464fc6c336835.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/demirhan/ros2_ws/build/getirkurye/getirkurye__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "getirkurye",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_getirkurye_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_getirkurye_egg-ca558559d407c63e4560.json",
+					"name" : "ament_cmake_python_build_getirkurye_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_getirkurye::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_getirkurye-acbd855e362ed6403791.json",
+					"name" : "ament_cmake_python_copy_getirkurye",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye-b7b8bcd14f672c6bf35a.json",
+					"name" : "getirkurye",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__cpp-3501d410810521747400.json",
+					"name" : "getirkurye__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "getirkurye__py::@c19ce6d0956872722ccc",
+					"jsonFile" : "target-getirkurye__py-1662873a5cb416561513.json",
+					"name" : "getirkurye__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_generator_c-b530aa03d2c59f81f914.json",
+					"name" : "getirkurye__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_generator_py-aa8f428b461c4f02c72d.json",
+					"name" : "getirkurye__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_c-e1fc5e5b82a266a4bf2c.json",
+					"name" : "getirkurye__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_c__pyext-21ad12d6fd030125ac3d.json",
+					"name" : "getirkurye__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_cpp-e88885113890ba6eb731.json",
+					"name" : "getirkurye__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_fastrtps_c-d0e556a1eac41350c356.json",
+					"name" : "getirkurye__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_fastrtps_c__pyext-fc2bab21dca06e9ee2d9.json",
+					"name" : "getirkurye__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_fastrtps_cpp-4726a43718dc203f64ec.json",
+					"name" : "getirkurye__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_introspection_c-edd82379d0a82dd89d1a.json",
+					"name" : "getirkurye__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_introspection_c__pyext-a86654915b2ea1368d55.json",
+					"name" : "getirkurye__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye__rosidl_typesupport_introspection_cpp-ac7bb09abf93be14291f.json",
+					"name" : "getirkurye__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getirkurye_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getirkurye_uninstall-06c33857bd94e6a4e405.json",
+					"name" : "getirkurye_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7dfee527b87d5b9a13f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/demirhan/ros2_ws/build/getirkurye",
+		"source" : "/home/demirhan/ros2_ws/src/getirkurye"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

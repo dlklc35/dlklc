@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-from dlklc.srv import SetCoordinates
+from getirkurye.srv import SetCoordinates
 
 class TurtleController(Node):
     def __init__(self):

@@ -1,0 +1,262 @@
+[0.010s] Invoking command in '/home/demirhan/ros2_ws/build/getirkurye': CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/my_robot_controller:/home/demirhan/ros2_ws/install/dlklc:/opt/ros/humble /usr/bin/cmake /home/demirhan/ros2_ws/src/getirkurye -DCMAKE_INSTALL_PREFIX=/home/demirhan/ros2_ws/install/getirkurye
+[0.017s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.090s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.102s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.104s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.107s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.138s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.303s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.669s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.684s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.684s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.684s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.684s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.694s] -- Found PythonExtra: .so  
+[0.729s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.735s] -- Added test 'lint_cmake' to check CMake code style
+[0.735s] -- Added test 'xmllint' to check XML markup files
+[0.736s] -- Configuring done
+[0.751s] -- Generating done
+[0.757s] -- Build files have been written to: /home/demirhan/ros2_ws/build/getirkurye
+[0.762s] Invoked command in '/home/demirhan/ros2_ws/build/getirkurye' returned '0': CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/my_robot_controller:/home/demirhan/ros2_ws/install/dlklc:/opt/ros/humble /usr/bin/cmake /home/demirhan/ros2_ws/src/getirkurye -DCMAKE_INSTALL_PREFIX=/home/demirhan/ros2_ws/install/getirkurye
+[0.762s] Invoking command in '/home/demirhan/ros2_ws/build/getirkurye': CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/my_robot_controller:/home/demirhan/ros2_ws/install/dlklc:/opt/ros/humble /usr/bin/cmake --build /home/demirhan/ros2_ws/build/getirkurye -- -j20 -l20
+[0.787s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.794s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.796s] [  5%] Built target ament_cmake_python_copy_getirkurye
+[0.917s] running egg_info
+[0.918s] creating getirkurye.egg-info
+[0.918s] writing getirkurye.egg-info/PKG-INFO
+[0.918s] writing dependency_links to getirkurye.egg-info/dependency_links.txt
+[0.918s] writing top-level names to getirkurye.egg-info/top_level.txt
+[0.918s] writing manifest file 'getirkurye.egg-info/SOURCES.txt'
+[0.919s] reading manifest file 'getirkurye.egg-info/SOURCES.txt'
+[0.919s] writing manifest file 'getirkurye.egg-info/SOURCES.txt'
+[0.938s] [  5%] Built target ament_cmake_python_build_getirkurye_egg
+[0.966s] [  5%] Built target getirkurye__cpp
+[0.973s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.974s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.974s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.975s] [ 15%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_generator_c.dir/rosidl_generator_c/getirkurye/srv/detail/set_coordinates__functions.c.o[0m
+[0.976s] [ 17%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_generator_c.dir/rosidl_generator_c/getirkurye/msg/detail/turtle_info__functions.c.o[0m
+[1.028s] [ 20%] [32m[1mLinking C shared library libgetirkurye__rosidl_generator_c.so[0m
+[1.059s] [ 20%] Built target getirkurye__rosidl_generator_c
+[1.068s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.068s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.068s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.131s] [ 30%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/getirkurye/srv/set_coordinates__type_support.cpp.o[0m
+[1.133s] [ 33%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/getirkurye/msg/turtle_info__type_support.cpp.o[0m
+[1.150s] [ 35%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/getirkurye/srv/detail/set_coordinates__type_support.cpp.o[0m
+[1.150s] [ 38%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/getirkurye/msg/detail/turtle_info__type_support.cpp.o[0m
+[1.161s] [ 41%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/getirkurye/srv/detail/dds_fastrtps/set_coordinates__type_support.cpp.o[0m
+[1.162s] [ 43%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/getirkurye/msg/detail/dds_fastrtps/turtle_info__type_support.cpp.o[0m
+[1.236s] [ 46%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_c.dir/rosidl_typesupport_c/getirkurye/msg/turtle_info__type_support.cpp.o[0m
+[1.236s] [ 48%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_c.dir/rosidl_typesupport_c/getirkurye/srv/set_coordinates__type_support.cpp.o[0m
+[1.261s] [ 51%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/getirkurye/srv/detail/set_coordinates__type_support_c.cpp.o[0m
+[1.263s] [ 53%] [32mBuilding CXX object CMakeFiles/getirkurye__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/getirkurye/msg/detail/turtle_info__type_support_c.cpp.o[0m
+[1.265s] [ 56%] [32m[1mLinking CXX shared library libgetirkurye__rosidl_typesupport_c.so[0m
+[1.266s] [ 58%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/getirkurye/msg/detail/turtle_info__type_support.c.o[0m
+[1.266s] [ 61%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/getirkurye/srv/detail/set_coordinates__type_support.c.o[0m
+[1.294s] [ 64%] [32m[1mLinking C shared library libgetirkurye__rosidl_typesupport_introspection_c.so[0m
+[1.304s] [ 64%] Built target getirkurye__rosidl_typesupport_c
+[1.321s] [ 64%] Built target getirkurye__rosidl_typesupport_introspection_c
+[1.404s] [ 66%] [32m[1mLinking CXX shared library libgetirkurye__rosidl_typesupport_cpp.so[0m
+[1.408s] [ 69%] [32m[1mLinking CXX shared library libgetirkurye__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.440s] [ 69%] Built target getirkurye__rosidl_typesupport_cpp
+[1.449s] [ 71%] [32m[1mLinking CXX shared library libgetirkurye__rosidl_typesupport_introspection_cpp.so[0m
+[1.459s] [ 71%] Built target getirkurye__rosidl_typesupport_fastrtps_cpp
+[1.466s] [ 74%] [32m[1mLinking CXX shared library libgetirkurye__rosidl_typesupport_fastrtps_c.so[0m
+[1.491s] [ 74%] Built target getirkurye__rosidl_typesupport_introspection_cpp
+[1.508s] [ 74%] Built target getirkurye__rosidl_typesupport_fastrtps_c
+[1.522s] [ 74%] Built target getirkurye
+[1.537s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.758s] [ 76%] Built target getirkurye__py
+[1.771s] [ 79%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_generator_py.dir/rosidl_generator_py/getirkurye/srv/_set_coordinates_s.c.o[0m
+[1.773s] [ 82%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_generator_py.dir/rosidl_generator_py/getirkurye/msg/_turtle_info_s.c.o[0m
+[1.839s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/getirkurye/libgetirkurye__rosidl_generator_py.so[0m
+[1.865s] [ 84%] Built target getirkurye__rosidl_generator_py
+[1.876s] [ 87%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/getirkurye/_getirkurye_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.877s] [ 89%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/getirkurye/_getirkurye_s.ep.rosidl_typesupport_c.c.o[0m
+[1.879s] [ 92%] [32mBuilding C object CMakeFiles/getirkurye__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/getirkurye/_getirkurye_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.933s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/getirkurye/getirkurye_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.933s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/getirkurye/getirkurye_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.934s] [100%] [32m[1mLinking C shared library rosidl_generator_py/getirkurye/getirkurye_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.958s] [100%] Built target getirkurye__rosidl_typesupport_fastrtps_c__pyext
+[1.966s] [100%] Built target getirkurye__rosidl_typesupport_c__pyext
+[1.966s] [100%] Built target getirkurye__rosidl_typesupport_introspection_c__pyext
+[1.974s] Invoked command in '/home/demirhan/ros2_ws/build/getirkurye' returned '0': CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/my_robot_controller:/home/demirhan/ros2_ws/install/dlklc:/opt/ros/humble /usr/bin/cmake --build /home/demirhan/ros2_ws/build/getirkurye -- -j20 -l20
+[1.980s] Invoking command in '/home/demirhan/ros2_ws/build/getirkurye': CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/my_robot_controller:/home/demirhan/ros2_ws/install/dlklc:/opt/ros/humble /usr/bin/cmake --install /home/demirhan/ros2_ws/build/getirkurye
+[1.985s] -- Install configuration: ""
+[1.985s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/ament_index/resource_index/rosidl_interfaces/getirkurye
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/rosidl_generator_c__visibility_control.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/turtle_info.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__struct.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__functions.c
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__type_support.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__functions.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/set_coordinates.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__struct.h
+[1.986s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__functions.h
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__type_support.h
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__functions.c
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/library_path.sh
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/library_path.dsv
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_generator_c.so
+[1.987s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_generator_c.so" to ""
+[1.987s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye
+[1.987s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg
+[1.987s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__rosidl_typesupport_fastrtps_c.h
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.987s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv
+[1.987s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail
+[1.987s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__rosidl_typesupport_fastrtps_c.h
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_fastrtps_c.so
+[1.988s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_fastrtps_c.so" to ""
+[1.988s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye
+[1.988s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/turtle_info.hpp
+[1.988s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__struct.hpp
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__traits.hpp
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__builder.hpp
+[1.988s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/set_coordinates.hpp
+[1.988s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail
+[1.988s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__traits.hpp
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__builder.hpp
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__struct.hpp
+[1.989s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye
+[1.989s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.989s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/dds_fastrtps
+[1.989s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv
+[1.989s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/dds_fastrtps
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[1.989s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_fastrtps_cpp.so
+[1.989s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__rosidl_typesupport_introspection_c.h
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__type_support.c
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__type_support.c
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__rosidl_typesupport_introspection_c.h
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_introspection_c.so
+[1.990s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_introspection_c.so" to ""
+[1.990s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_c.so
+[1.990s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_c.so" to ""
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg
+[1.990s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__type_support.cpp
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/msg/detail/turtle_info__rosidl_typesupport_introspection_cpp.hpp
+[1.991s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv
+[1.991s] -- Up-to-date: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__type_support.cpp
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/include/getirkurye/getirkurye/srv/detail/set_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_introspection_cpp.so
+[1.991s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_introspection_cpp.so" to ""
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_cpp.so
+[1.991s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_typesupport_cpp.so" to ""
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/pythonpath.sh
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/pythonpath.dsv
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye-0.0.0-py3.10.egg-info
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye-0.0.0-py3.10.egg-info/PKG-INFO
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye-0.0.0-py3.10.egg-info/top_level.txt
+[1.991s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/libgetirkurye__rosidl_generator_py.so
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/_getirkurye_s.ep.rosidl_typesupport_introspection_c.c
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg/_turtle_info.py
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg/__init__.py
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg/_turtle_info_s.c
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/__init__.py
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv/__init__.py
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv/_set_coordinates_s.c
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv/_set_coordinates.py
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/_getirkurye_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/_getirkurye_s.ep.rosidl_typesupport_c.c
+[1.992s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.010s] Listing '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye'...
+[2.010s] Compiling '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/__init__.py'...
+[2.010s] Listing '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg'...
+[2.010s] Compiling '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg/__init__.py'...
+[2.010s] Compiling '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/msg/_turtle_info.py'...
+[2.010s] Listing '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv'...
+[2.010s] Compiling '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv/__init__.py'...
+[2.010s] Compiling '/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/srv/_set_coordinates.py'...
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.013s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.013s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.013s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages/getirkurye/getirkurye_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_generator_py.so
+[2.013s] -- Set runtime path of "/home/demirhan/ros2_ws/install/getirkurye/lib/libgetirkurye__rosidl_generator_py.so" to ""
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/msg/TurtleInfo.idl
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/srv/SetCoordinates.idl
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/msg/TurtleInfo.msg
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/srv/SetCoordinates.srv
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/srv/SetCoordinates_Request.msg
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/srv/SetCoordinates_Response.msg
+[2.013s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/ament_index/resource_index/package_run_dependencies/getirkurye
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/ament_index/resource_index/parent_prefix_path/getirkurye
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/ament_prefix_path.sh
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/ament_prefix_path.dsv
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/path.sh
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/environment/path.dsv
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/local_setup.bash
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/local_setup.sh
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/local_setup.zsh
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/local_setup.dsv
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/package.dsv
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/ament_index/resource_index/packages/getirkurye
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_generator_cExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_generator_cExport-noconfig.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_typesupport_fastrtps_cExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_generator_cppExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_introspection_cExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_cExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_cExport-noconfig.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_introspection_cppExport.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.014s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_cppExport.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkurye__rosidl_typesupport_cppExport-noconfig.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_generator_pyExport.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/export_getirkurye__rosidl_generator_pyExport-noconfig.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/rosidl_cmake-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/ament_cmake_export_libraries-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/ament_cmake_export_targets-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkuryeConfig.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/cmake/getirkuryeConfig-version.cmake
+[2.015s] -- Installing: /home/demirhan/ros2_ws/install/getirkurye/share/getirkurye/package.xml
+[2.016s] Invoked command in '/home/demirhan/ros2_ws/build/getirkurye' returned '0': CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/my_robot_controller:/home/demirhan/ros2_ws/install/dlklc:/opt/ros/humble /usr/bin/cmake --install /home/demirhan/ros2_ws/build/getirkurye

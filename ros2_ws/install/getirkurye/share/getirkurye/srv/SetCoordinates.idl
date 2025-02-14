@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from getirkurye/srv/SetCoordinates.srv
+// generated code does not contain a copyright notice
+
+
+module getirkurye {
+  module srv {
+    struct SetCoordinates_Request {
+      double x;
+
+      double y;
+    };
+    struct SetCoordinates_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+setup.py
+getirkurye/__init__.py
+getirkurye.egg-info/PKG-INFO
+getirkurye.egg-info/SOURCES.txt
+getirkurye.egg-info/dependency_links.txt
+getirkurye.egg-info/top_level.txt
+getirkurye/msg/__init__.py
+getirkurye/msg/_turtle_info.py
+getirkurye/srv/__init__.py
+getirkurye/srv/_set_coordinates.py

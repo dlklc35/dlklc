@@ -1,0 +1,11 @@
+source;share/getirkurye/hook/cmake_prefix_path.ps1
+source;share/getirkurye/hook/cmake_prefix_path.dsv
+source;share/getirkurye/hook/cmake_prefix_path.sh
+source;share/getirkurye/hook/ld_library_path_lib.ps1
+source;share/getirkurye/hook/ld_library_path_lib.dsv
+source;share/getirkurye/hook/ld_library_path_lib.sh
+source;share/getirkurye/local_setup.bash
+source;share/getirkurye/local_setup.dsv
+source;share/getirkurye/local_setup.ps1
+source;share/getirkurye/local_setup.sh
+source;share/getirkurye/local_setup.zsh

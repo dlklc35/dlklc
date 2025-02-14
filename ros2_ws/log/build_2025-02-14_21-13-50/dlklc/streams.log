@@ -1,0 +1,23 @@
+[0.293s] Invoking command in '/home/demirhan/ros2_ws/src/dlklc': AMENT_PREFIX_PATH=/home/demirhan/ros2_ws/install/getirkurye:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/getirkurye LD_LIBRARY_PATH=/home/demirhan/ros2_ws/install/getirkurye/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/demirhan/ros2_ws/build/dlklc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages:/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dlklc build --build-base /home/demirhan/ros2_ws/build/dlklc/build install --record /home/demirhan/ros2_ws/build/dlklc/install.log --single-version-externally-managed install_data
+[0.412s] running egg_info
+[0.412s] writing ../../build/dlklc/dlklc.egg-info/PKG-INFO
+[0.412s] writing dependency_links to ../../build/dlklc/dlklc.egg-info/dependency_links.txt
+[0.412s] writing entry points to ../../build/dlklc/dlklc.egg-info/entry_points.txt
+[0.412s] writing requirements to ../../build/dlklc/dlklc.egg-info/requires.txt
+[0.412s] writing top-level names to ../../build/dlklc/dlklc.egg-info/top_level.txt
+[0.413s] reading manifest file '../../build/dlklc/dlklc.egg-info/SOURCES.txt'
+[0.414s] writing manifest file '../../build/dlklc/dlklc.egg-info/SOURCES.txt'
+[0.414s] running build
+[0.414s] running build_py
+[0.414s] running install
+[0.414s] running install_lib
+[0.415s] running install_data
+[0.415s] running install_egg_info
+[0.416s] removing '/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.416s] Copying ../../build/dlklc/dlklc.egg-info to /home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages/dlklc-0.0.0-py3.10.egg-info
+[0.416s] running install_scripts
+[0.427s] Installing client_node script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.427s] Installing randomturtlemessages script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.427s] Installing turtle_move script to /home/demirhan/ros2_ws/install/dlklc/lib/dlklc
+[0.427s] writing list of installed files to '/home/demirhan/ros2_ws/build/dlklc/install.log'
+[0.438s] Invoked command in '/home/demirhan/ros2_ws/src/dlklc' returned '0': AMENT_PREFIX_PATH=/home/demirhan/ros2_ws/install/getirkurye:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/demirhan/ros2_ws/install/getirkurye LD_LIBRARY_PATH=/home/demirhan/ros2_ws/install/getirkurye/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/demirhan/ros2_ws/build/dlklc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirhan/ros2_ws/install/dlklc/lib/python3.10/site-packages:/home/demirhan/ros2_ws/install/getirkurye/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dlklc build --build-base /home/demirhan/ros2_ws/build/dlklc/build install --record /home/demirhan/ros2_ws/build/dlklc/install.log --single-version-externally-managed install_data

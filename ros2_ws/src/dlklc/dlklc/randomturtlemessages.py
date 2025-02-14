@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from turtlesim.srv import Spawn
-from dlklc.msg import TurtleInfo
+from getirkurye.msg import TurtleInfo
 import random
 import time
 
@@ -10,15 +10,14 @@ class TurtleSpawner(Node):
     def __init__(self):
         super().__init__('turtle_spawner')
 
-        # Spawn servisi için istemci
         self.spawn_turtle_client = self.create_client(Spawn, 'spawn')
         while not self.spawn_turtle_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Servis bekleniyor...')
 
-        # Yayıncı (Publisher) oluştur
+        
         self.publisher = self.create_publisher(TurtleInfo, 'turtle_info', 10)
 
-        # Timer
+        
         self.timer = self.create_timer(1.0, self.spawn_turtle_callback)
 
     def spawn_turtle_callback(self):
@@ -41,7 +40,6 @@ class TurtleSpawner(Node):
             response = future.result()
             self.get_logger().info(f'Kaplumbağa oluşturuldu: {name}')
 
-            # TurtleInfo mesajını yayınla
             msg = TurtleInfo()
             msg.name = name
             msg.x = x

@@ -14,9 +14,7 @@ dlklc/randomturtlemessages.py
 dlklc/turtle_move.py
 launch/launch_random_turtle_messages.launch.py
 launch/launch_turtle_move.launch.py
-msg/TurtleInfo.msg
 resource/dlklc
-srv/SetCoordinates.srv
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

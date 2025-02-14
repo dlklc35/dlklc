@@ -1,0 +1,4 @@
+source;share/getirkurye/local_setup.bash
+source;share/getirkurye/local_setup.dsv
+source;share/getirkurye/local_setup.sh
+source;share/getirkurye/local_setup.zsh

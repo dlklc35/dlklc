@@ -1,0 +1,4 @@
+source;share/getirkurye/environment/ament_prefix_path.sh
+source;share/getirkurye/environment/library_path.sh
+source;share/getirkurye/environment/path.sh
+source;share/getirkurye/environment/pythonpath.sh
