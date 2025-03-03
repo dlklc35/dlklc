@@ -30,6 +30,7 @@ setup(
             "turtle_move = dlklc.turtle_move:main ",
             "client_node = dlklc.client_node:main",
             "randomturtlemessages = dlklc.randomturtlemessages:main",
+            "turtleturns = dlklc.turtleturn:main",
 
         ],
     },

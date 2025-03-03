@@ -12,6 +12,7 @@ dlklc/__init__.py
 dlklc/client_node.py
 dlklc/randomturtlemessages.py
 dlklc/turtle_move.py
+dlklc/turtleturn.py
 launch/launch_random_turtle_messages.launch.py
 launch/launch_turtle_move.launch.py
 resource/dlklc
