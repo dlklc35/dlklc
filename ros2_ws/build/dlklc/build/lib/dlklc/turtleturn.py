@@ -20,10 +20,10 @@ class KaplumbagaKontrolcu(Node):
             Pose, '/turtle1/pose', self.ana_kaplumbaga_pozisyonu_callback, 10)
         self.hiz_yayinci = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
 
-        self.acisal_tol = 0.01
-        self.mesafe_tol = 0.1
+        self.acisal_tol = 0.0001
+        self.mesafe_tol = 0.05
         self.acisal_hiz_katsayisi = 2.0
-        self.dogrusal_hiz_katsayisi = 2.0
+        self.dogrusal_hiz_katsayisi = 1.5
 
         self.hedef_kaplumbaga_yarat()
 
